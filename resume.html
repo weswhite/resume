@@ -7,17 +7,10 @@
   <title>Wes White</title>
   <link rel="stylesheet" type="text/css" href="/css/template.css">
 </head>
-
 <body>
   <header></header>
   <div class="t1">
     <main>
-      <!-- <p style="margin: 0; padding: 0.5em; background: #fcc">Click
-
-      <p style="margin: 0; padding: 0.5em; background: #ffc">Click
-        <a href="/files/current_resume.pdf">here</a> for a printable version (PDF
-        format). You may also want to view the PDF if you are using an old browser and
-        the below does not render properly.</p> -->
       <div class="resume">
         <style scoped>
           p {
@@ -36,7 +29,7 @@
 
           ul.dash {
             list-style: none;
-            margin-left: 1.5em;
+            margin-left: .8em;
             padding-left: 1em;
           }
 
@@ -65,7 +58,7 @@
             .content {
               width: 8.5in;
               margin: 0px auto;
-              padding: 1in;
+              padding: .5in;
             }
 
             .print-only {
@@ -92,7 +85,7 @@
           <p style="text-align: center; padding-bottom: 1ex">
             <b>Wes White</b><br />
             Seattle, WA<br />
-            <a href="tel:15128395199">+1-512-839-5199</a> |
+            <a href="tel:5128395199">(512) 839-5199</a> |
             <a>wtwhite@prodigy.net</a>
           </p>
           <hr />
@@ -101,11 +94,8 @@
             <ul class="experience">
               <li><strong>Magenic Technologies &mdash; Senior Software Engineering Consultant</strong>
                 (7/2016&ndash;present)<br />
-                Magenic Technologies, Inc. is a consulting company that provides information technology services. Magenic focuses on custom software and mobile application development.</li>
               <li><strong>Sogeti &mdash; Software Engineering Consultant</strong>
                 (2/2015&ndash;6/2016)<br />
-                Sogeti USA LLC provides information technology consulting services. The Company offers advisory services, enterprise architecture, IT optimization, application development, and integration, as well as provides e-commerce, mobile, and technology integration solutions. 
-                Sogeti servers customers worldwide..</li>
             </ul>
           </section>
           <section id="education">
@@ -114,71 +104,73 @@
             Mays Business School &mdash; Management Information Systems<br />
           </section>
           <section id="projects">
-            <h1>Projects</h1>
-            <p><i>Growth take-aways in italics</i></p>
+            <h1>Projects (<i>major takeaways in italics</i>)</h1>
             <ul class="dash">
               <li>
-                <b class="list-title">Big Four Accounting Firm</b>
-                &mdash; React, TypeScript, GraphQL, .NET. International travel taxiblity software contracted to tech industry giant. 
-                Audited for accessiblity and internationalization. Large, multi-team project. SAFE deilvery. Multitenent.
+                <b class="list-title">EY - Senior Engineer - React, TypeScript, GraphQL, .NET/C#</b>
+                <div>International travel taxiblity software contracted for large tech firm. Integrate travel itenerary with global tax codes to calculate taxibility and reporting for informed travel.
+                Audited for accessiblity and internationalization. </div>
                 <i>
-                  First project delivered along with internal npm package for component library. Heavily code reviewed for accessiblity.
-                  Personally focused on refining development process (disapline, percision, mindfulness). Provided senior level capacity for team (design, requirement gathering, mentorship, code review)
+                  First project delivered along with internal npm package for component library. Team a11y lead. Created a11y related acceptance criteria for UI deliverables and reviewed them in PRs. Designed and developed SSO authentication solution with JWT for the React app.
                 </i>
               </li>
               <li>
-                <b class="list-title">Big Four Accounting Firm</b>
-                &mdash; React, PDFjs, .NET. Frontend Lead. Machine Learning driven annotation engine for tax documents. Built UI for annotating PDF documents in browser. 
+                <b class="list-title">PricewaterhouseCoopers - Frontend Lead - React, PDFjs, .NET/C#</b>
+                <div>Machine Learning driven annotation engine for tax documents. Built UI for annotating PDF documents in browser. 
                 Key/value pairs sent to ML pipeline to enhance training for predicting pertinent information in a given document. Heavily event driven UI. 
                 Heavy native DOM manipulation and traversal. Extensive use of core browser API. Multitenent.
+                </div><i>
+                  Gained experience developing in a machine learning workflow. Gained significant experince with PFDjs, DOM traversal, resursive traversal, and using the DOM to creatively hold state outside of React.
+                  Leveraged widow selection functionality to create document highlights of text on a PDF displayed in a React app. Synconized global app state with useContext, useReducer, useCallback.
+                </i>
               </li>
               <li>
-                <b>Dental Insurance Provider</b>
-                &mdash; Angular. Team lead. Benfits management tool. HIPAA compliant. Streamlined access multiple data sources. Allowed clients to manage their benefits across their company. 
+                <b>Dental Dental - Team Lead - Angular</b>
+                <div>Benfits management tool. HIPAA compliant. Streamlined access multiple data sources. Allowed clients to manage their benefits across their company. 
                 Also allowed subscribers information about their plans and insurance coverage details. Integrated exsiting products.
-                Mordern, responsive UI. Multitenent.
+                Mordern, responsive UI. Multitenent.</div>
+                <i>
+                  Securely developed around sensitive personal information such as medical records and social sercurity information. Utilized rxjs to synconize async network calls and data merges. Built responsive header, sidebar, footer integrated into route guards and user roles.
+                </i>
               </li>
               <li>
-                <b>Financial Coporate Service Company</b>
-                &mdash; Angular. Team lead. Financial report generation tool. Given a financial report template, the tool walks through mapping data sets to graphs. 
-                Once complete, the tool creates digital and hard copy finacial reports for board meeting review. Integrated MorningStar stock APIs and client provided data migrations for reports.
+                <b>Broadridge Financial - Team Lead - Angular</b>
+                <div>Financial report generation tool. Given a financial report template, the tool walks through mapping data sets to graphs. 
+                Once complete, the tool creates digital and hard copy finacial reports for board meeting review. Integrated MorningStar stock APIs and client provided data migrations for reports.</div>
               </li> 
               <li>
-                <b>Construction Mananement Software Company</b>
-                &mdash; Angular. Project managemnt software. Flagship product managing worksite project, tasks, hours, resources, employees. Mobile first design and implementation.
-                Heavy integration with legacy applications and data sources.
+                <b>Sage Construction - Engineer - Angular</b>
+                <div>Project managemnt software. Flagship product managing worksite project, tasks, hours, resources, employees. Mobile first design and implementation.
+                Heavy integration with legacy applications and data sources.</div>
+                <i>Large teams. Heavy legacy systems integration. Required strong communication. High amounts of domain knoweledge required for delivery</i>
               </li>
               <li>
-                <b>Big Four Accounting Firm</b>
-                <ul class="dash">
-                  <li>React, Sharepoint. Client product. Built before Sharepoint supported React components.</li> 
-                  <li>Angular. Internal data management tool. Excel-like data manipulation features. Reporting/charting.</li>
-                  <li>AngularJS, Sharepoint. Client tax project delivery management tool.</li>
-                </ul>
+                <b>EY - Engineer - 2 project in Angular, 1 in React</b>
+                  <div>React, Sharepoint Built before Sharepoint supported React components.</div> 
+                  <div>Angular. Internal data management tool. Excel-like data manipulation features. Reporting/charting.</div>
+                  <div>AngularJS, Sharepoint. Client tax project delivery management tool.</div>
               </li>
               <li>
-                <b>Risk Management Firm</b>
-                &mdash; React. Internal claims management tool.
+                <b>Aon Aviation - Engineer - React</b>
+                <div>Internal claims management tool.</div>
               </li>
               <li>
-                <b>Multinational Financial Service Company</b>
-                &mdash; Angular. Project started during Angular beta. Flagship stock trading platform. Heavy data integration. Websockets for stock price data. 
+                <b>Charles Schwab - Engineer - Angular</b>
+                <div>Project started during Angular beta. Flagship stock trading platform. Heavy data integration. Websockets for stock price data. 
                 Integration with internal stock marketing trading APIs. Built user dashboard with stock tickers, porfolio anaylsis, 
-                customizable views. Mobile friendly.
+                customizable views. Mobile friendly.</div>
+                <i>First modern javascript app. Started with Angular beta. Built out frontend workflows and packaging with Gulp taskrunner. Created SystemJS tooling. First project using frontend unit testing.</i>
               </li>
               <li>
-                <b>Multinational Computer Technology Company</b>
-                &mdash; AngularJS, Salesforce. Client resourse management
-              </li>
-              <li>
-                <b>Oil/Gas Exploration and Production Company</b>
-                &mdash; Python, Sharepoint. Data migration and new Sharepoint communities across company knowlege centers. Created as knowlege share and collaboration tool. 
+                <b>Dell - Engineer - Angular, Salesforce</b>
+                <div>Client resourse management</div>
+                <i>First experience with web development. Learned resposive css with bootstrap. Small team with a strenous backlog created a high pressure environmnet. This situation gave plenty of oppurtunity to learn how to build web apps. Diffcult project that enable a large amount of career growth in just one year.</i>
               </li>
             </ul>
           </section>
           <section id="expertis">
             <h1>Expertise</h1>
-            <p>JavaScript, TypeScript, React, Angular, RxJS, GraphQL, Node, Advanced CSS/SASS, Docker, unit testing (unit & integration), accessiblity, security</p>
+            <p>JavaScript, TypeScript, React, Angular, RxJS, GraphQL, Node, CSS/SASS, Docker, testing (unit & integration), accessiblity, security</p>
           </section>
           <section id="interests">
             <h1>Interests</h1>
@@ -188,5 +180,4 @@
       </div>
     </main>
   </div>
-
 </html>
