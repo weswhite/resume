@@ -14,6 +14,9 @@
     <main>
       <div class="resume">
         <style scoped>
+          body{
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+          }
           .name {
             font-size: 150%;
           }
@@ -53,7 +56,7 @@
 
           li b {
             display: block;
-            margin: .3rem 0 0 0;
+            margin: .2rem 0 0 0;
           }
 
           .footer {
@@ -70,11 +73,15 @@
             display: inline-block;
           }
 
+          h1 {
+            margin: 0;
+          }
+
           @media screen {
             .content {
               width: 8.5in;
               margin: 0px auto;
-              padding: .5in;
+              padding-top: .5rem;
             }
 
             .print-only {
@@ -105,7 +112,7 @@
             <a>wtwhite@prodigy.net</a>
           </p>
           <hr />
-          <section id="information">
+          <section>
             <div class="dual-section">
               <div class=mid-content>
                 <h1>Experience</h1>
@@ -136,7 +143,7 @@
             </div>
           </section>
           <section id="projects">
-            <h1>Projects (<i>accomplishments in italics</i>)</h1>
+            <h1 style="margin-top: 10px">Projects (<i>accomplishments in italics</i>)</h1>
             <ul class="dash">
               <li>
                 <b class="list-title">EY - Senior Engineer - React, TypeScript, GraphQL, .NET/C#</b>
