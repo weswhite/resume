@@ -1,0 +1,25 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "description": "",
+  "main": "html-2-pdf-converter.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/weswhite/resume.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/weswhite/resume/issues"
+  },
+  "homepage": "https://github.com/weswhite/resume#readme",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "html-pdf": "^2.2.0",
+    "jspdf": "^2.1.1",
+    "phantom-html-to-pdf": "^0.6.0"
+  }
+}

@@ -14,6 +14,9 @@
     <main>
       <div class="resume">
         <style scoped>
+          body {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+          }
           .name {
             font-size: 150%;
           }
@@ -34,16 +37,16 @@
 
           ul.dash {
             list-style: none;
-            margin-left: .8em;
-            padding-left: 1em;
+            margin-left: .4em;
+            padding-left: .4em;
           }
 
-          ul.dash li:before {
+          /* ul.dash li:before {
             display: inline-block;
             content: "\2013";
             width: 1em;
             margin-left: -1em;
-          }
+          } */
 
           ul.experience {
             list-style-type: none;
@@ -52,6 +55,15 @@
 
           ul.experience li {
             padding: 0.5ex 0;
+          }
+
+          li div {
+            padding: 0 0 .3rem 0;
+          }
+
+          li b {
+            display: block;
+            margin: .4rem 0 0 0;
           }
 
           .footer {
@@ -97,7 +109,7 @@
           <section id="experience">
             <h1>Experience</h1>
             <ul class="experience">
-              <li><strong>Magenic Technologies &mdash; Senior Software Engineering Consultant</strong>
+              <li><strong>Magenic Technologies &mdash; Senior Software Engineering Consultant - Remote</strong>
                 (7/2016&ndash;present)<br />
               <li><strong>Sogeti &mdash; Software Engineering Consultant</strong>
                 (2/2015&ndash;6/2016)<br />
@@ -174,6 +186,24 @@
                   that work to the backend where full reports were generated.</i>
               </li>
               <li>
+                <b>Charles Schwab - Engineer - Angular</b>
+                <div>Project started during Angular beta. Flagship stock trading platform. Heavy data integration.
+                  Web sockets for stock price data.
+                  Integration with internal stock marketing trading APIs. Built user dashboard with stock tickers,
+                  portfolio analysis,
+                  customizable views. Mobile friendly.</div>
+                <i>First modern javascript app. Started with Angular beta. Built out frontend workflows and packaging
+                  with Gulp taskrunner. Created SystemJS tooling. First project using frontend unit testing.</i>
+              </li>
+              <li>
+                <b>Dell - Engineer - Angular, Salesforce</b>
+                <div>Client resourse management</div>
+                <i>First experience with web development. Learned responsive css with bootstrap. Small team with a
+                  strenuous backlog created a high pressure environment. This situation gave plenty of opportunity to
+                  learn how to build web apps. Diffcult project that enabled a large amount of personal growth in one
+                  year.</i>
+              </li>
+              <li>
                 <b>Sage Construction - Engineer - Angular</b>
                 <div>Project management software. Flagship product managing worksite project, tasks, hours, resources,
                   employees. Mobile first design and implementation.
@@ -191,24 +221,6 @@
               <li>
                 <b>Aon Aviation - Engineer - React</b>
                 <div>Internal claims management tool.</div>
-              </li>
-              <li>
-                <b>Charles Schwab - Engineer - Angular</b>
-                <div>Project started during Angular beta. Flagship stock trading platform. Heavy data integration.
-                  Web sockets for stock price data.
-                  Integration with internal stock marketing trading APIs. Built user dashboard with stock tickers,
-                  portfolio analysis,
-                  customizable views. Mobile friendly.</div>
-                <i>First modern javascript app. Started with Angular beta. Built out frontend workflows and packaging
-                  with Gulp taskrunner. Created SystemJS tooling. First project using frontend unit testing.</i>
-              </li>
-              <li>
-                <b>Dell - Engineer - Angular, Salesforce</b>
-                <div>Client resourse management</div>
-                <i>First experience with web development. Learned responsive css with bootstrap. Small team with a
-                  strenuous backlog created a high pressure environment. This situation gave plenty of opportunity to
-                  learn how to build web apps. Diffcult project that enabled a large amount of personal growth in one
-                  year.</i>
               </li>
             </ul>
           </section>
